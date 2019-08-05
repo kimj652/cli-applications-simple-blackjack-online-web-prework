@@ -45,10 +45,8 @@ def hit?(num)
     input = get_user_input
     if input == "h"
       return num + deal_card
-      break
     elsif input == "s"
       return num
-      break
     else
       invalid_command
     end
